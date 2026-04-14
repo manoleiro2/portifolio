@@ -1,0 +1,90 @@
+body {
+    background-image: url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3797460/1e361f6ed83dc2b821eabb63d04bf3c0d7b06fe5/ss_1e361f6ed83dc2b821eabb63d04bf3c0d7b06fe5.1920x1080.jpg');
+    font-family: 'arial', sans-serif;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    color: #333333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    background-color: rgba(152,175,209,0.7);
+    border: 1px solid #A3BCE0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.nome {
+    width: 536px;
+    height: 200px;
+    margin: 32px auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: rgba(242,243,248,0.3);
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+}
+
+.nome h1 {
+    text-align: center;
+    margin: 0 0 8px;
+    color: #0188CC;
+    height: 100px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cards {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 32px auto;
+    padding: 20px;
+    background-color: rgba(242,243,248,0.4);
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    
+}
+
+.card {
+    flex: 1 1 240px;
+    border: 1px solid #e5e5e5;
+    background-color: rgba(217,224,242,0.5);
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 300px;
+    height: 200px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.social{
+    text-align: center;
+    height: 50px;
+}
+
+.social img {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+body p {
+    text-align: center;
+    color: #444;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,83 @@
+body {
+    background: #F8F8F8;
+    font-family: 'arial', sans-serif;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: #2b6cb0; 
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+}
+
+.menu a {
+    color: #fff;
+     text-decoration: none;
+}
+
+.nome {
+    width: 536px;
+    margin: 32px auto;
+    padding: 20px;
+}
+
+.nome h2 {
+    text-align: center;
+    margin: 0 0 8px;
+    color: #2b6cb0;
+}
+
+.nome p {
+    text-align: center;
+    margin: 0 0 12px;
+    color: #444;
+}
+
+.btn {
+    display: block;
+    width: max-content;
+    margin: 8px auto 0;
+    padding: 10px 16px;
+    background: #2b6cb0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+.cards {
+    text-align: center;
+    margin: 0 0 12px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 32px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    
+}
+
+.card {
+    flex: 1 1 240px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    width: 300px;
+    height: 200px;
+}
+
+body p {
+    text-align: center;
+    color: #444;
+}
